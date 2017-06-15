@@ -1,4 +1,4 @@
-update=Thu 15 Jun 2017 12:33:41 PM PDT
+update=Thu 15 Jun 2017 01:47:13 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=lib/CD74HC4060E
 LibName31=lib/CD74HCT4046AE
 LibName32=lib/ATTINY24A-PU
+LibName33=lib/LT1016
