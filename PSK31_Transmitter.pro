@@ -1,4 +1,4 @@
-update=Thu 15 Jun 2017 09:26:53 PM PDT
+update=Thu 15 Jun 2017 11:25:59 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,8 +57,8 @@ LibName25=opto
 LibName26=atmel
 LibName27=contrib
 LibName28=valves
-LibName29=lib/ATTINY24A-PU
-LibName30=lib/AD9834
-LibName31=lib/NB3N511
-LibName32=lib/ADF4002
-LibName33=lib/ASVTX-12
+LibName29=lib/NB3N511
+LibName30=lib/ADF4002
+LibName31=lib/ASVTX-12
+LibName32=lib/ATMEGA328P
+LibName33=lib/FT230X
