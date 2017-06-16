@@ -1,4 +1,4 @@
-update=Thu 15 Jun 2017 04:11:18 PM PDT
+update=Thu 15 Jun 2017 09:26:53 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,6 @@ LibName27=contrib
 LibName28=valves
 LibName29=lib/ATTINY24A-PU
 LibName30=lib/AD9834
+LibName31=lib/NB3N511
+LibName32=lib/ADF4002
+LibName33=lib/ASVTX-12

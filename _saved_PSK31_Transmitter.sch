@@ -1,0 +1,174 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ATTINY24A-PU
+LIBS:NB3N511
+LIBS:ADF4002
+LIBS:PSK31_Transmitter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY24A-PU U?
+U 1 1 5942F35B
+P 3550 1550
+F 0 "U?" H 3550 1450 50  0000 C CNN
+F 1 "ATTINY24" H 3550 1650 50  0000 C CNN
+F 2 "MODULE" H 3550 1550 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3500 950  3500
+Wire Wire Line
+	800  3400 800  3300
+Wire Wire Line
+	800  3400 950  3400
+$Comp
+L GND #PWR?
+U 1 1 59434A62
+P 800 3600
+F 0 "#PWR?" H 800 3350 50  0001 C CNN
+F 1 "GND" H 800 3450 50  0000 C CNN
+F 2 "" H 800 3600 50  0000 C CNN
+F 3 "" H 800 3600 50  0000 C CNN
+	1    800  3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 2350
+Wire Wire Line
+	2450 2350 2450 2450
+Wire Wire Line
+	950  2350 950  2450
+Wire Wire Line
+	950  2350 2450 2350
+Wire Wire Line
+	1700 2400 1700 2350
+Connection ~ 950  2800
+Connection ~ 2450 2800
+Wire Wire Line
+	950  2750 950  3300
+Wire Wire Line
+	1550 2800 950  2800
+Wire Wire Line
+	2450 2800 1850 2800
+Wire Wire Line
+	2450 2750 2450 3300
+$Comp
+L GND #PWR?
+U 1 1 594348A0
+P 1700 2400
+F 0 "#PWR?" H 1700 2150 50  0001 C CNN
+F 1 "GND" H 1700 2250 50  0000 C CNN
+F 2 "" H 1700 2400 50  0000 C CNN
+F 3 "" H 1700 2400 50  0000 C CNN
+	1    1700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5943486B
+P 950 2600
+F 0 "C?" H 975 2700 50  0000 L CNN
+F 1 "C" H 975 2500 50  0000 L CNN
+F 2 "" H 988 2450 50  0000 C CNN
+F 3 "" H 950 2600 50  0000 C CNN
+	1    950  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 594347C6
+P 2450 2600
+F 0 "C?" H 2475 2700 50  0000 L CNN
+F 1 "C" H 2475 2500 50  0000 L CNN
+F 2 "" H 2488 2450 50  0000 C CNN
+F 3 "" H 2450 2600 50  0000 C CNN
+	1    2450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NB3N511 U?
+U 1 1 594346A4
+P 1700 3450
+F 0 "U?" H 1700 3350 50  0000 C CNN
+F 1 "NB3N511" H 1700 3550 50  0000 C CNN
+F 2 "MODULE" H 1700 3450 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1700 3450 50  0001 C CNN
+	1    1700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal Y?
+U 1 1 5943440B
+P 1700 2800
+F 0 "Y?" H 1700 2950 50  0000 C CNN
+F 1 "Crystal" H 1700 2650 50  0000 C CNN
+F 2 "" H 1700 2800 50  0000 C CNN
+F 3 "" H 1700 2800 50  0000 C CNN
+	1    1700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADF4002 U?
+U 1 1 594372A6
+P 3950 3350
+F 0 "U?" H 3950 3250 50  0000 C CNN
+F 1 "ADF4002" H 3950 3450 50  0000 C CNN
+F 2 "MODULE" H 3950 3350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3950 3350 50  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59437368
+P 800 3300
+F 0 "#PWR?" H 800 3150 50  0001 C CNN
+F 1 "+3.3V" H 800 3440 50  0000 C CNN
+F 2 "" H 800 3300 50  0000 C CNN
+F 3 "" H 800 3300 50  0000 C CNN
+	1    800  3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3500 800  3600
+$EndSCHEMATC
