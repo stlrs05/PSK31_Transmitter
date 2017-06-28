@@ -1,4 +1,4 @@
-update=Mon 19 Jun 2017 09:55:41 PM PDT
+update=Wed 28 Jun 2017 02:30:00 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=valves
 LibName29=lib/FT230X
 LibName30=lib/ATMEGA328P
 LibName31=lib/AD9851
+LibName32=lib/TXETDDSANF-30.000000
